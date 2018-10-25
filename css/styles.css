@@ -1,0 +1,57 @@
+html {
+  font-size: 10px;
+}
+@font-face {
+  font-family: 'Exo2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Exo_2/Exo2-Regular.ttf') format('ttf'), url('../fonts/Exo_2/exo-2-v4-latin_cyrillic-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'OpenSans';
+  font-style: semibold;
+  font-weight: 600;
+  src: url('../fonts/Open_Sans/OpenSans-SemiBold.ttf') format('ttf'), url(../fonts/Open_Sans/open-sans-v15-latin_cyrillic_cyrillic-ext-600.woff2) format('woff2'); 
+}
+.message-form__input{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 72rem;
+  height: 12rem;
+  padding-top: 3.4rem;
+  padding-left: 2rem;
+  margin-bottom: 1.2rem;
+  font-family: Exo2, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: .01em;
+  border-width: 1px;
+  border-color: rgb(241, 241, 241);
+  border-style: solid;
+  resize: none;
+}
+.message-form__input::-webkit-input-placeholder{
+  color: rgb(204, 204, 204);
+}
+.message-form__input:-ms-input-placeholder{
+  color: rgb(204, 204, 204);
+}
+.message-form__input::-ms-input-placeholder{
+  color: rgb(204, 204, 204);
+}
+.message-form__input::placeholder{
+  color: rgb(204, 204, 204);
+}
+.message-form__button{
+  display: block;
+  margin: 0;
+  padding: 1.8rem 2.2rem;
+  font-family: OpenSans, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(23, 190, 207);
+  -webkit-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+}

@@ -283,13 +283,21 @@ html {
 } */
 
 @media (min-width: 1170px) {
+  .thread-container{
+    width: 76.6rem;
+  }
   .user-name{
     font-size: 1.8rem;
+    margin-right: 1rem;
+  }
+  .user-box{
+    margin-bottom: 4rem;
   }
   .thread-message__text {
-    padding-top: 3.2rem;
+    padding-top: 3rem;
     padding-bottom: 4rem;
-    padding-left: 3rem;
+    padding-left: 3.2rem;
+    margin-bottom: 1.4rem;
     font-size: 1.8rem;
   }
   .thread-message__text::after {
@@ -299,5 +307,12 @@ html {
     top: -1.2rem;
     border: 6px solid transparent; 
     border-bottom: 6px solid rgb(236, 248, 242);
+  }
+  .thread-message__user-info{
+    padding-top: 4.4rem;
+    padding-left: .6rem;
+  }
+  .thread-message__buttons{
+    text-align: right;
   }
 }
